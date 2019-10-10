@@ -67,7 +67,7 @@ a:hover {
 	padding: 0;
 }
 
-.home button {
+.home .button {
 	background: transparent;
 	color: #fff;
 	border: 3px solid #fff;
@@ -77,7 +77,8 @@ a:hover {
 	letter-spacing: 3px;
 }
 
-.home button:hover {
+.home .button:hover {
+	text-decoration: none;
 	background: #fff;
 	color: #111;
 }

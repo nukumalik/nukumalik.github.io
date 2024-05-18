@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#161513] text-white;
+  }
+}
+
+.navbar-menu-item {
+  &:hover {
+    @apply bg-gradient-to-br from-orange-400 to-purple-700 bg-clip-text text-transparent;
+  }
+
+  @apply font-jakarta font-semibold text-[15px] tracking-wider;
+}
+
+.radial-gradient-teal {
+  background: radial-gradient(circle, rgba(21, 173, 178, 0.1), transparent 50%);
+}
+
+.radial-gradient-orange {
+  background: radial-gradient(circle, rgba(225, 122, 90, 0.1), transparent 50%);
+}
+
+.radial-gradient-purple {
+  background: radial-gradient(circle, rgba(145, 51, 185, 0.15), transparent 70%);
+}
+
+.glass {
+  &:hover {
+    background: rgba(22, 21, 19, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}

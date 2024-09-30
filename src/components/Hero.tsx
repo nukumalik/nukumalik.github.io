@@ -1,9 +1,9 @@
-import Avatar from '../assets/avatar.svg'
+import Avatar from '../assets/avatar.png'
 
 const Hero = () => {
   return (
     <div id="home" className="px-8 2xl:px-0 py-12">
-      <img src={Avatar} alt="avatar" className="mx-auto" />
+      <img src={Avatar} alt="avatar" className="mx-auto w-60" />
       <div className="my-16 text-center">
         <h2 className="text-5xl md:text-[55px] font-extrabold md:flex justify-center gap-2">
           <span>Hi</span>
